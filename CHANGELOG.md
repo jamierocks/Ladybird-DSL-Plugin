@@ -2,12 +2,21 @@
 
 # Changelog
 
-## 2.0.1 - 2025-04-10
+## 2.0.2 - 2025-04-10
+
+### Changed
+
+- Remove use of deprecated and private APIs
+
+### Added
+
+## 2.0.1 - Not released
 
 ### Changed
 
 - Update IDE support to have no upper version limit
-- Remove use of deprecated and private APIs
+
+### Added
 
 ## 2.0.0 - 2024-09-10
 
