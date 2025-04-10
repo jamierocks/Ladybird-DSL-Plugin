@@ -7,8 +7,8 @@ import com.intellij.openapi.editor.Document
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
 import com.intellij.psi.util.PsiTreeUtil
-import com.intellij.refactoring.suggested.endOffset
-import com.intellij.refactoring.suggested.startOffset
+import com.intellij.psi.util.endOffset
+import com.intellij.psi.util.startOffset
 import org.ladybird.dsl.common.nextSiblingOfType
 import org.ladybird.dsl.common.prevSiblingOfType
 import org.ladybird.dsl.idl.psi.IDLPsiElement
