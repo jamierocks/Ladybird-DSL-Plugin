@@ -3,8 +3,8 @@ package org.ladybird.dsl.idl.annotation
 import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiElement
-import com.intellij.refactoring.suggested.endOffset
-import com.intellij.refactoring.suggested.startOffset
+import com.intellij.psi.util.endOffset
+import com.intellij.psi.util.startOffset
 import org.ladybird.dsl.common.DSLAnnotator
 import org.ladybird.dsl.idl.Highlights
 import org.ladybird.dsl.idl.psi.api.*

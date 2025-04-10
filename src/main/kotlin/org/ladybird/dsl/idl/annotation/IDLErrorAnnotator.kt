@@ -9,7 +9,7 @@ import org.ladybird.dsl.common.prevSiblings
 import org.ladybird.dsl.idl.psi.IDLDeclaration
 import org.ladybird.dsl.idl.psi.api.*
 import java.net.MalformedURLException
-import java.net.URL
+import java.net.URI
 
 class IDLErrorAnnotator : DSLAnnotator() {
     override fun annotate(element: PsiElement) {
@@ -32,7 +32,7 @@ class IDLErrorAnnotator : DSLAnnotator() {
 
         for (comment in comments) {
             try {
-                URL(comment.dropPrefix("//").trim())
+                URI.create(comment.dropPrefix("//").trim()).toURL()
                 return
             } catch (e: MalformedURLException) {
                 continue
